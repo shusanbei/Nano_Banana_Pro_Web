@@ -1,6 +1,6 @@
-# CLAUDE.md — Banana Pro AI 项目指南
+# AGENTS.md — Banana Pro AI 项目指南
 
-> 本文件为 AI 编码助手提供项目上下文，遵循 Anthropic CLAUDE.md 最佳实践。
+> 本文件为 AI 编码助手提供项目上下文，遵循 Anthropic AGENTS.md 最佳实践。
 
 ## 项目概述
 

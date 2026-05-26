@@ -199,9 +199,9 @@ jobs:
           projectPath: './desktop'
           args: ${{ matrix.tauriArgs }}
           tagName: ${{ github.ref_name }}
-          releaseName: '大香蕉 AI ${{ github.ref_name }}'
+          releaseName: 'Smart token AI ${{ github.ref_name }}'
           releaseBody: |
-            ## 🎨 大香蕉 AI - 创作从未如此简单
+            ## 🎨 Smart token AI - 创作从未如此简单
 
             ${{ steps.release_notes.outputs.body }}
 
@@ -225,9 +225,9 @@ jobs:
           projectPath: './desktop'
           args: ${{ matrix.tauriArgs }} --no-sign
           tagName: ${{ github.ref_name }}
-          releaseName: '大香蕉 AI ${{ github.ref_name }}'
+          releaseName: 'Smart token AI ${{ github.ref_name }}'
           releaseBody: |
-            ## 🎨 大香蕉 AI - 创作从未如此简单
+            ## 🎨 Smart token AI - 创作从未如此简单
 
             ${{ steps.release_notes.outputs.body }}
 
@@ -320,9 +320,9 @@ jobs:
           projectPath: './desktop'
           args: ${{ matrix.tauriArgs }}
           tagName: ${{ github.ref_name }}
-          releaseName: '大香蕉 AI ${{ github.ref_name }}'
+          releaseName: 'Smart token AI ${{ github.ref_name }}'
           releaseBody: |
-            ## 🎨 大香蕉 AI - 创作从未如此简单
+            ## 🎨 Smart token AI - 创作从未如此简单
 
             ${{ steps.release_notes.outputs.body }}
 

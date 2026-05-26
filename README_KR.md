@@ -26,9 +26,9 @@
 > - **🤖 전용 OpenAI 이미지 생성**: 새로운 `openai-image` 제공자 유형, `/v1/images/generations` 표준 API 지원 (gpt-image-2 모델).
 > - **🎨 이미지 카드 리팩토링**: 썸네일/전체 크기 스마트 전환, 드래그 앤 드롭 개선, 로딩 경험 향상.
 
-> 💡 **추천**: 최고의 생성 경험과 가성비를 위해 [Yunwu API](https://yunwu.ai/register?aff=i4hh) 사용을 권장합니다.
+> 💡 **추천**: 최고의 생성 경험과 가성비를 위해 [Yunwu API](https://www.smarttoken.cloud) 사용을 권장합니다.
 >
-> | 생성 해상도 | [Yunwu API](https://yunwu.ai/register?aff=i4hh) 가격 | [Google 공식 가격 (참고)](https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn#gemini-3-pro-image-preview) |
+> | 생성 해상도 | [Yunwu API](https://www.smarttoken.cloud) 가격 | [Google 공식 가격 (참고)](https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn#gemini-3-pro-image-preview) |
 > | :--- | :--- | :--- |
 > | **1K** (1024x1024) | **약 15원 / 장** | ≈ 170원 / 장 |
 > | **2K** (2048x2048) | **약 15원 / 장** | ≈ 170원 / 장 |

@@ -1,4 +1,4 @@
-# 🎨 大香蕉 AI (Banana Pro Web & Desktop)
+# 🎨 Smart token AI (Banana Pro Web & Desktop)
 
 [![GitHub stars](https://img.shields.io/github/stars/ShellMonster/Nano_Banana_Pro_Web?style=flat-square)](https://github.com/ShellMonster/Nano_Banana_Pro_Web/stargazers)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/ShellMonster/Nano_Banana_Pro_Web/blob/main/LICENSE)
@@ -9,7 +9,7 @@
 
 [English](README_EN.md) | [简体中文](README.md) | [日本語](README_JP.md) | [한국어](README_KR.md)
 
-**大香蕉 AI** 是一款专为创意工作者打造的高性能图片生成平台。它融合 Gemini 与 OpenAI 标准接口能力，支持高分辨率（最高 4K）的文生图与图生图，并提供桌面端与 Web 端两种形态。
+**Smart token AI** 是一款专为创意工作者打造的高性能图片生成平台。它融合 Gemini 与 OpenAI 标准接口能力，支持高分辨率（最高 4K）的文生图与图生图，并提供桌面端与 Web 端两种形态。
 
 <p align="center">
   <img src="assets/preview1.png" alt="Banana Pro Web 预览 1" width="800">
@@ -23,9 +23,9 @@
 > - **🤖 OpenAI 专用图片生成**：新增 `openai-image` 提供商类型，支持 `/v1/images/generations` 标准接口（gpt-image-2 模型）。
 > - **🎨 图片卡片重构**：缩略图/全图智能切换，拖拽优化，加载体验提升。
 
-> 💡 **推荐使用**：为了获得最佳的生成体验与极高的性价比，推荐搭配 [云雾API](https://yunwu.ai/register?aff=i4hh) 使用。
+> 💡 **推荐使用**：为了获得最佳的生成体验与极高的性价比，推荐搭配 [Smart tokenAPI](https://www.smarttoken.cloud) 使用。
 >
-> | 生成分辨率 | [云雾API](https://yunwu.ai/register?aff=i4hh) 价格 | [Google 官方价格 (参考)](https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn#gemini-3-pro-image-preview) |
+> | 生成分辨率 | [Smart tokenAPI](https://www.smarttoken.cloud) 价格 | [Google 官方价格 (参考)](https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn#gemini-3-pro-image-preview) |
 > | :--- | :--- | :--- |
 > | **1K** (1024x1024) | **0.08 元/张** | ≈ 0.94 元/张 |
 > | **2K** (2048x2048) | **0.08 元/张** | ≈ 0.94 元/张 |
@@ -260,7 +260,7 @@ graph TD
 部分 macOS 用户下载应用后会因为系统的 Gatekeeper 安全机制导致无法打开或提示异常。可在终端执行以下命令移除隔离标记：
 
 ```
-sudo xattr -r -d com.apple.quarantine "/Applications/大香蕉 AI.app"
+sudo xattr -r -d com.apple.quarantine "/Applications/Smart token AI.app"
 ```
 - **Google Gemini API Key** (用于 Gemini 对接方式)
 - **OpenAI API Key** (用于 OpenAI 对接方式，可选)
@@ -321,7 +321,7 @@ npm run tauri:build:local
 
 桌面端参考图拖拽的临时二进制缓存使用固定的 `window.__BANANA_DRAG_IMAGE_DATA__` 字段，并通过运行时类型守卫读取，避免动态全局索引带来的静态扫描误报。
 
-桌面端设置弹窗按 section/field group 渐进拆分：`SettingsModal.tsx` 仍负责标签页、provider 切换、保存、测试连接和跨 section 状态；`desktop/src/components/Settings/ProviderConnectionFields.tsx` 负责 provider 连接字段（Base URL、API Key、显隐按钮、云雾推荐入口和警告/提示插槽）。后续拆分设置页时请一次只抽一个清晰职责，保持现有行为和 Tailwind 样式不变。
+桌面端设置弹窗按 section/field group 渐进拆分：`SettingsModal.tsx` 仍负责标签页、provider 切换、保存、测试连接和跨 section 状态；`desktop/src/components/Settings/ProviderConnectionFields.tsx` 负责 provider 连接字段（Base URL、API Key、显隐按钮、Smart token推荐入口和警告/提示插槽）。后续拆分设置页时请一次只抽一个清晰职责，保持现有行为和 Tailwind 样式不变。
 
 ### 4. Web 前端开发
 ```bash

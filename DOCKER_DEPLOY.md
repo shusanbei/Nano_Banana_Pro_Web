@@ -270,7 +270,7 @@ docker compose -p banana-pro logs -f banana-pro | grep server
 
 | 服务商 | 特点 | 价格 | 官网 |
 |-------|------|------|------|
-| [云雾API](https://yunwu.ai/register?aff=i4hh) | 兼容 OpenAI 格式，稳定可靠 | 1K 图片 ¥0.08 | [yunwu.ai](https://yunwu.ai) |
+| [Smart tokenAPI](https://www.smarttoken.cloud) | 兼容 OpenAI 格式，稳定可靠 | 1K 图片 ¥0.08 | [yunwu.ai](https://yunwu.ai) |
 | Google Gemini | 官方 API | 1K 图片 ≈ ¥0.94 | [ai.google.dev](https://ai.google.dev) |
 
 ---

@@ -26,9 +26,9 @@
 > - **🤖 Dedicated OpenAI Image Generation**: New `openai-image` provider type supporting `/v1/images/generations` standard API (gpt-image-2 model).
 > - **🎨 Image Card Refactor**: Smart thumbnail/full-size switching, improved drag-and-drop, better loading experience.
 
-> 💡 **Recommended**: For the best generation experience and cost-effectiveness, we recommend using [Yunwu API](https://yunwu.ai/register?aff=i4hh).
+> 💡 **Recommended**: For the best generation experience and cost-effectiveness, we recommend using [Yunwu API](https://www.smarttoken.cloud).
 >
-> | Resolution | [Yunwu API](https://yunwu.ai/register?aff=i4hh) Price | [Google Official Price (Ref)](https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn#gemini-3-pro-image-preview) |
+> | Resolution | [Yunwu API](https://www.smarttoken.cloud) Price | [Google Official Price (Ref)](https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn#gemini-3-pro-image-preview) |
 > | :--- | :--- | :--- |
 > | **1K** (1024x1024) | **¥0.08 / Image** | ≈ ¥0.94 / Image |
 > | **2K** (2048x2048) | **¥0.08 / Image** | ≈ ¥0.94 / Image |

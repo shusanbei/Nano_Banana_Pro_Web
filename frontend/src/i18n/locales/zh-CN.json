@@ -1,7 +1,7 @@
 {
   "app": {
-    "title": "大香蕉 AI",
-    "headerTitle": "大香蕉图片生成工具"
+    "title": "Smart token AI",
+    "headerTitle": "Smart token图片生成工具"
   },
   "nav": {
     "generate": "生成",
@@ -153,7 +153,7 @@
     "provider": {
       "label": "AI对接方式",
       "recommended": "推荐平台：",
-      "yunwu": "云雾API",
+      "yunwu": "Smart token API",
       "openaiImageLimit": "OpenAI 类型当前仅支持生成 1K 图片",
       "geminiBasePathHint": "Gemini 类型建议 Base URL 仅填写域名，不要带 /v1 或具体接口路径"
     },

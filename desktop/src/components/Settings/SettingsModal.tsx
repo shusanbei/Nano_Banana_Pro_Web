@@ -812,7 +812,7 @@ export function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
   };
 
   const handleOpenYunwu = async () => {
-    const url = 'https://yunwu.ai/register?aff=i4hh';
+    const url = 'https://www.smarttoken.cloud';
     try {
       const isTauri = typeof window !== 'undefined' && Boolean((window as any).__TAURI_INTERNALS__);
       if (isTauri) {

@@ -26,9 +26,9 @@
 > - **🤖 OpenAI 専用画像生成**: 新しい `openai-image` プロバイダータイプ、`/v1/images/generations` 標準 API をサポート（gpt-image-2 モデル）。
 > - **🎨 画像カードのリファクタリング**: サムネイル/フルサイズのスマート切り替え、ドラッグ＆ドロップの改善、読み込み体験の向上。
 
-> 💡 **推奨**: 最高の生成体験とコストパフォーマンスを得るために、[Yunwu API](https://yunwu.ai/register?aff=i4hh) の使用をお勧めします。
+> 💡 **推奨**: 最高の生成体験とコストパフォーマンスを得るために、[Yunwu API](https://www.smarttoken.cloud) の使用をお勧めします。
 >
-> | 生成解像度 | [Yunwu API](https://yunwu.ai/register?aff=i4hh) 価格 | [Google 公式価格 (参考)](https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn#gemini-3-pro-image-preview) |
+> | 生成解像度 | [Yunwu API](https://www.smarttoken.cloud) 価格 | [Google 公式価格 (参考)](https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn#gemini-3-pro-image-preview) |
 > | :--- | :--- | :--- |
 > | **1K** (1024x1024) | **¥0.08 / 枚** | ≈ ¥0.94 / 枚 |
 > | **2K** (2048x2048) | **¥0.08 / 枚** | ≈ ¥0.94 / 枚 |

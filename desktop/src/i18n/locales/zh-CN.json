@@ -1,7 +1,7 @@
 {
   "app": {
-    "title": "大香蕉 AI",
-    "headerTitle": "大香蕉图片生成工具"
+    "title": "Smart token AI",
+    "headerTitle": "Smart token图片生成工具"
   },
   "nav": {
     "generate": "生成",
@@ -184,10 +184,10 @@
     "provider": {
       "label": "AI对接方式",
       "recommended": "推荐平台：",
-      "yunwu": "云雾API",
+      "yunwu": "Smart token API",
       "geminiBasePathHint": "Gemini 类型建议 Base URL 仅填写域名，不要带 /v1 或具体接口路径",
-      "yunwuMissingV1Hint": "云雾 API 的 Base URL 建议包含 /v1",
-      "yunwuExtraPathHint": "云雾 API 的 Base URL 建议只保留到 /v1，不要包含更深路径"
+      "yunwuMissingV1Hint": "Smart token  API 的 Base URL 建议包含 /v1",
+      "yunwuExtraPathHint": "Smart token  API 的 Base URL 建议只保留到 /v1，不要包含更深路径"
     },
     "model": {
       "default": "默认模型",
@@ -803,7 +803,7 @@
       "finish": "完成"
     },
     "welcome": {
-      "title": "欢迎使用大香蕉 AI",
+      "title": "欢迎使用Smart token AI",
       "content": "本引导会带你快速了解核心功能，约 1 分钟。"
     },
     "settings": {

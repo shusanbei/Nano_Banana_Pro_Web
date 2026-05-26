@@ -467,7 +467,7 @@ export function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
               <span className="text-xs text-slate-500">
                 {t('settings.provider.recommended')}
                 <a
-                  href="https://yunwu.ai/register?aff=i4hh"
+                  href="https://www.smarttoken.cloud"
                   target="_blank"
                   rel="noreferrer"
                   className="text-blue-600 hover:text-blue-700 underline underline-offset-2"
@@ -652,7 +652,7 @@ export function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
                 <span className="text-xs text-slate-500">
                   {t('settings.provider.recommended')}
                   <a
-                    href="https://yunwu.ai/register?aff=i4hh"
+                    href="https://www.smarttoken.cloud"
                     target="_blank"
                     rel="noreferrer"
                     className="text-blue-600 hover:text-blue-700 underline underline-offset-2"
