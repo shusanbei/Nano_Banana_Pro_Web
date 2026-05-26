@@ -100,6 +100,8 @@ backend/desktop/src-tauri/bin/
 !assets/*.png
 !desktop/src-tauri/icons/*.png
 !desktop/src/assets/app-icon.png
+!desktop/public/logo.png
+!frontend/public/logo.png
 desktop/node_modules/
 desktop/dist/
 
