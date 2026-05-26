@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "大香蕉 AI",
+  "productName": "Smart token AI",
   "version": "2.8.4",
   "identifier": "com.dztool.banana",
   "build": {
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "大香蕉 AI",
+        "title": "Smart token AI",
         "width": 1200,
         "height": 800,
         "transparent": true,
@@ -67,9 +67,9 @@
   },
   "plugins": {
     "updater": {
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDI5MDg4OUIyMTU0MDU2MTYKUldRV1ZrQVZzb2tJS1JlUENUMmRUMEZVQTRIWWRCRjdHVkhFWVlVK3lvTnRuWmhSNXE0Q201WGMK",
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDI5RjcyMTUxOUVBMDk5RjgKUldUNG1hQ2VVU0gzS1g0MnVRQm5BV0VKUmxkaFJ6MDhiR2VZTUdSM0tOR0VGNGdxY2JvREFUcnYK",
       "endpoints": [
-        "https://github.com/ShellMonster/Nano_Banana_Pro_Web/releases/latest/download/latest.json"
+        "https://github.com/shusanbei/Nano_Banana_Pro_Web/releases/latest/download/latest.json"
       ],
       "windows": {
         "installMode": "passive"

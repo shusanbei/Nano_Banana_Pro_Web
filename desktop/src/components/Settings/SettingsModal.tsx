@@ -296,7 +296,7 @@ export function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
     const isPreset = VISION_MODEL_OPTIONS.some(o => o.value === visionModel);
     setVisionModelSelect(isPreset ? visionModel : CUSTOM_MODEL_VALUE);
   }, [visionModel]);
-  const repoUrl = import.meta.env.VITE_GITHUB_REPO_URL || 'https://github.com/ShellMonster/Nano_Banana_Pro_Web';
+  const repoUrl = import.meta.env.VITE_GITHUB_REPO_URL || 'https://github.com/shusanbei/Nano_Banana_Pro_Web';
   const normalizeTimeout = (value?: number | null, fallback = 150) => {
     if (typeof value !== 'number' || !Number.isFinite(value) || value <= 0) return fallback;
     return Math.round(value);

@@ -8,7 +8,7 @@
 
 - **版本**: v2.8.0
 - **协议**: MIT
-- **仓库**: ShellMonster/Nano_Banana_Pro_Web
+- **仓库**: shusanbei/Nano_Banana_Pro_Web
 
 三层架构：React 前端 → Tauri (Rust IPC 桥) → Go Sidecar 后端。桌面端通过 Tauri 打包，Web 端通过 Docker + Nginx 部署。
 

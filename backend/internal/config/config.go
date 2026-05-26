@@ -252,7 +252,7 @@ func InitConfig() {
 	viper.SetDefault("prompts.optimize_system", DefaultOptimizeSystemPrompt)
 	viper.SetDefault("prompts.optimize_system_json", DefaultOptimizeSystemJSONPrompt)
 	viper.SetDefault("prompts.image_to_prompt_system", DefaultImageToPromptSystem)
-	viper.SetDefault("templates.remote_url", "https://raw.githubusercontent.com/ShellMonster/Nano_Banana_Pro_Web/refs/heads/main/backend/internal/templates/assets/templates.json")
+	viper.SetDefault("templates.remote_url", "https://raw.githubusercontent.com/shusanbei/Nano_Banana_Pro_Web/refs/heads/main/backend/internal/templates/assets/templates.json")
 	viper.SetDefault("templates.fetch_timeout_seconds", 4)
 	viper.SetDefault("exports.remote_fetch_timeout_seconds", 120)
 	viper.SetDefault("exports.remote_max_file_mb", 512)

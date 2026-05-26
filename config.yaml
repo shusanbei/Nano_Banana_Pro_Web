@@ -30,7 +30,7 @@ prompts:
   optimize_system_json: null
 
 templates:
-  remote_url: "https://raw.githubusercontent.com/ShellMonster/Nano_Banana_Pro_Web/refs/heads/main/backend/internal/templates/assets/templates.json"
+  remote_url: "https://raw.githubusercontent.com/shusanbei/Nano_Banana_Pro_Web/refs/heads/main/backend/internal/templates/assets/templates.json"
   fetch_timeout_seconds: 4
 
 exports:
